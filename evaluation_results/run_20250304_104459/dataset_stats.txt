@@ -1,0 +1,4 @@
+Total users: 1000
+Total items: 184628
+Total interactions: 2027721
+Sparsity: 98.90%
