@@ -1,3 +1,0 @@
-Data file: ./Dataset/train.csv
-Number of users sampled: 1000
-Minimum interactions per user: 5
