@@ -119,22 +119,6 @@ recommender.fit(trainset)
 recommendations = recommender.get_top_n_recommendations(user_id, n=10)
 ```
 
-### Advanced Usage
-```python
-# Using the optimized version
-from OptimizedContentBasedRecommender import MusicDataProcessor, OptimizedContentBasedRecommender
-
-# Initialize with custom parameters
-data_processor = MusicDataProcessor(
-    filepath='train.csv',
-    cache_dir='./cache'
-)
-
-# Create recommender with competition mode
-recommender = OptimizedContentBasedRecommender(
-    data_processor=data_processor,
-    competition_mode=True
-)
 
 # Train and evaluate
 recommender.fit(trainset)
@@ -179,9 +163,6 @@ The system achieves competitive performance metrics:
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 - Kaggle DSG17 Online Phase competition
